@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="5" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[2]]>
+    </line>
+    <line>
+      <![CDATA[4]]>
+    </line>
+    <line>
+      <![CDATA[5]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="89" started-at="2022-02-28T13:31:25 IST" finished-at="2022-02-28T13:31:25 IST">
+    <groups>
+      <group name="payment">
+        <method signature="Groups.m2()[pri:0, instance:com.aspire.selenium.Framework.testNG.Groups@86be70a]" name="m2" class="com.aspire.selenium.Framework.testNG.Groups"/>
+      </group> <!-- payment -->
+      <group name="order">
+        <method signature="Groups.m4()[pri:0, instance:com.aspire.selenium.Framework.testNG.Groups@86be70a]" name="m4" class="com.aspire.selenium.Framework.testNG.Groups"/>
+        <method signature="Groups.m5()[pri:0, instance:com.aspire.selenium.Framework.testNG.Groups@86be70a]" name="m5" class="com.aspire.selenium.Framework.testNG.Groups"/>
+      </group> <!-- order -->
+    </groups>
+    <test name="Testng" duration-ms="89" started-at="2022-02-28T13:31:25 IST" finished-at="2022-02-28T13:31:25 IST">
+      <class name="com.aspire.selenium.Framework.testNG.Groups">
+        <test-method status="PASS" signature="m2()[pri:0, instance:com.aspire.selenium.Framework.testNG.Groups@86be70a]" name="m2" duration-ms="13" started-at="2022-02-28T13:31:25 IST" finished-at="2022-02-28T13:31:25 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m2 -->
+        <test-method status="PASS" signature="m4()[pri:0, instance:com.aspire.selenium.Framework.testNG.Groups@86be70a]" name="m4" duration-ms="1" started-at="2022-02-28T13:31:25 IST" finished-at="2022-02-28T13:31:25 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[4]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m4 -->
+        <test-method status="PASS" signature="m5()[pri:0, instance:com.aspire.selenium.Framework.testNG.Groups@86be70a]" name="m5" duration-ms="3" started-at="2022-02-28T13:31:25 IST" finished-at="2022-02-28T13:31:25 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[5]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m5 -->
+      </class> <!-- com.aspire.selenium.Framework.testNG.Groups -->
+    </test> <!-- Testng -->
+  </suite> <!-- Suite -->
+</testng-results>
